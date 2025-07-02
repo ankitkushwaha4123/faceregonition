@@ -1,9 +1,5 @@
 ✅ Updated README.md (VS Code Friendly)
 Here’s an improved version that includes VS Code-specific instructions:
-
-markdown
-Copy
-Edit
 # Face Recognition System using OpenCV & KNN
 
 A real-time face recognition project using **OpenCV** and a custom **KNN classifier**, developed in **Python** and run in **VS Code**.
@@ -22,10 +18,6 @@ A real-time face recognition project using **OpenCV** and a custom **KNN classif
 │ ├── John.npy
 │ └── Ankit.npy
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 💻 How to Run This in VS Code
@@ -34,7 +26,6 @@ Edit
 
 Install dependencies:
 
-```bash
 pip install opencv-python numpy
 Ensure your workspace folder includes:
 
@@ -53,9 +44,6 @@ Go to File > Open Folder → Select your project folder.
 Open the Terminal (Ctrl + or View > Terminal).
 
 🧑‍💻 b. Capture Face Data
-bash
-Copy
-Edit
 python face_data.py
 Enter the name when prompted.
 
@@ -64,14 +52,10 @@ Face samples will be saved in ./face_dataset/.
 Press q to quit capturing.
 
 📷 c. Detect Faces (Testing)
-bash
-Copy
-Edit
+
 python face_detection.py
 🧠 d. Run Face Recognition
-bash
-Copy
-Edit
+
 python face_recoginition.py
 Face will be detected and recognized.
 
@@ -98,9 +82,7 @@ Keep all files in the same folder (or update paths accordingly).
 Ensure the .npy files are created before running recognition.
 
 📸 Output Example
-less
-Copy
-Edit
+
 +----------------------+
 | [  Ankit          ]  |
 | [                ▢ ] |
@@ -119,10 +101,6 @@ Built for academic and learning purposes.
 
 📜 License
 Free to use and modify for personal or educational purposes.
-
-yaml
-Copy
-Edit
 
 ---
 
